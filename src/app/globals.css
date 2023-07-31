@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media (max-width: 768px) {
+    .responsive_login {
+        display: none
+    }
+    .field_responsive{
+        margin-top: -1rem;
+        margin-left: 2%;
+    }
+    .input_responsive{
+        width: 20rem;
+    }
+}
+@media (max-width: 968px) {
+    .responsive_login {
+        width: 15rem;
+    }
+    .input_responsive{
+        width: 17rem;
+
+    }
+}
+@media (max-width: 1280px) {
+    /* .responsive_login {
+        width: 15rem;
+    } */
+    .input_responsive{
+        width: 17rem;
+
+    }
+}
