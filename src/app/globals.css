@@ -21,15 +21,10 @@
     }
     .input_responsive{
         width: 17rem;
-
     }
 }
 @media (max-width: 1280px) {
-    /* .responsive_login {
-        width: 15rem;
-    } */
     .input_responsive{
         width: 17rem;
-
     }
 }
